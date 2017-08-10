@@ -1,0 +1,41 @@
+{
+  "name": "kristen-dlc-portfolio",
+  "version": "1.0.0",
+  "description": "Kristen De La Cerda's Web Application Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kndelacerda/kristen-dlc-portfolio.git"
+  },
+  "keywords": [
+    "kristen",
+    "de",
+    "la",
+    "cerda",
+    "portfolio"
+  ],
+  "author": "Kristen De La Cerda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kndelacerda/kristen-dlc-portfolio/issues"
+  },
+  "homepage": "https://github.com/kndelacerda/kristen-dlc-portfolio#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "debug": "^3.0.0",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "http": "0.0.0",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "node": "^8.2.1",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "serve-favicon": "^2.4.3"
+  }
+}
